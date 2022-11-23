@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+    <html>
+        <title>Logical logistics LL</title>
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+           
+            #container1{
+            	position: sticky;
+            	top: 2px;
+            	z-index: 2;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #F22536;
+                border-bottom: 10px solid #572b2e;
+            }
+            ul{
+
+                list-style-type: none;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                font-size: 1.1em;
+            }
+
+            #logo{
+                width: 10%;
+                padding: 14px 16px;
+                float: left;
+            }
+
+            .li-1{
+                float: left;
+            }
+            .Achor{
+                display: block;
+                color: #A1A8AD;
+                text-align: center;
+                padding: 31px 16px;
+                text-decoration: none;
+            }
+
+            .Achor:hover{
+                background-color: white;
+                color: #F22536 ;
+                font-size: 1.2em;
+                border-bottom: 10px solid #e2c3c3;
+		}
+
+			#list{
+				float: right;
+			}
+
+
+			#Contact{
+				display: block;
+				border:1px solid white;
+	            color: white;
+	            text-align: center;
+	            padding: 10px 40px;
+	            text-decoration: none;
+	            margin-right: 50px;
+	            margin-top: 20px;
+	            border-radius: 10px;
+
+		}
+
+		#Contact:hover{
+			background-color: white;
+			color:#F22536;
+			border:1px solid #F22536;
+
+		}
+        	#background-img{
+              width: 100%;
+              height: 600px;
+              clear: both;
+            }
+
+            #backcon{
+            	position: relative;
+            }
+
+            .topleft {
+				position: absolute;
+				top: 30%;
+				left: 15%;
+				font-size: 3em;
+				font-weight: bold;
+				color: white;
+			}
+
+			#best{
+				position: absolute;
+				top: 50%;
+				left: 15%;
+				font-size: 1.1em;
+				font-weight: bold;
+				color: white;	
+			}
+
+			#Emp{
+				position: absolute;
+				top: 53%;
+				left: 15%;
+				font-size: 1em;
+				color: white;	
+			}
+
+			#in-put{
+				position: absolute;
+				top: 70%;
+				left: 15%;
+				width: 50%;
+			  	box-sizing: border-box;
+			  	border: 2px solid #ccc;
+			  	border-radius: 4px;
+			  	font-size: 16px;
+			  	background-color: white;
+			  	opacity: 0px;
+			  	background-image: url('Search.png');
+			  	background-position: 15px 10px; 
+			  	background-repeat: no-repeat;
+			  	padding: 12px 20px 12px 40px;
+			}
+
+			#container-2{
+				clear: both;
+				height: auto;
+				background-color: white;
+				width: 100%;
+				border-radius: 5px;
+				margin-top: 500px;
+			}
+
+			#image-1{
+				width: 60%;
+				padding-top: 80px;
+				float: left;
+
+			}
+
+			#txt-sty{
+				width: 40%;
+				height: 650px;
+				float: left;
+				margin-top: 65px;
+				padding-left: 40px;
+			}
+
+			#text-1{
+				font-weight: bold;
+			}
+
+			#text-2{
+				font-weight: bold;
+				font-size: 3em;
+				
+			}
+
+			ol{
+				list-style-type: none;
+			}
+
+			ol li::before{
+				content: "\2022";
+				color:red;
+				font-weight: bold;
+				font-size: 1.1em;
+				display: inline-block;
+				width: 1em;
+
+			}
+
+			.li-2{
+				border-top: 1px solid #F2F2F2;
+				border-bottom: 1px solid #F2F2F2;
+				padding-top:15px;
+				padding-bottom: 15px;
+				color: #A6A6A6
+			}
+
+			#Achor-1{
+				text-decoration: none;
+				border:1px solid #F22536;
+				background-color: #F22536;
+				padding: 15px 40px;
+				font-weight: bold;
+				text-align: center;
+				border-radius: 40px;
+				color: white;
+				font-size: 1.2em;
+				margin-left: 40px;
+			}
+
+			#Achor-1:hover{
+				color: #F22536;
+				background-color: white;
+			}
+
+
+        </style>
+        <head>
+
+        </head>
+
+        <body>
+            <div id="container1">
+                <ul class="Ulist">
+                    <li id="logo"><a href="#"><img src="Standardlogistics.svg"> </a> </li>
+                    <li class="li-1"> <a href="#" class="Achor"> SHIPPERS </a></li>
+                    <li class="li-1"><a href="#" class="Achor"> DRIVERS </a></li>
+                    <li class="li-1"><a href="#" class="Achor"> CARRIES </a></li>
+                    <li class="li-1"><a href="#" class="Achor"> WHAREHOUSING </a></li>
+                    <li class="li-1"><a href="#" class="Achor"> ABOUT US </a></li>
+
+                    <li id="list"><a href="#" id="Contact"> ABOUT US </a></li>
+                </ul>
+            </div>
+
+            
+            <div id="background-img" id="backcon">
+
+            	<img src="Logistics-1.jpg" style="width: 100%">
+            	<div class="topleft">Driving Solutions.
+				<br>	Your Way
+			</div>
+
+			<div id="best">Best in Class Logistics.
+			</div>
+
+			<div id="Emp"> Employee Driven. Customer Focused. </div>
+
+			<div>
+			<form>
+			  <input type="text" name="search" placeholder="Tracking Number.." id="in-put">
+			</form>
+
+            </div>
+
+              </div><!-- background image-->
+
+
+            <div id="container-2">
+
+            	<div id="image-1" >
+            		<img src="Logistics-1.jpg" style="width: 100%; height: 700px" >
+            	</div>
+
+            	<div id="txt-sty">
+
+            		<p id="text-1">FULL SERVICE SOLUTIONS
+            		</p>
+
+            		<p id="text-2">
+            		Shipping Services and Logistics Solutions that meet all your needs</p>
+
+            		<ol>
+            			<li class="li-2">Versatile fleet of flatbeds, dry vans, tankers, and pneumatics</li>
+
+            			<li class="li-2">Experienced and professional drivers</li>
+
+            			<li class="li-2">Warehousing services</li>
+
+            			<li class="li-2">Brokerage services</li>
+
+            			<li class="li-2">A growing network of more than 15 facilities nationwide</li>
+            		</ol>
+
+            		
+
+            	</div> <!-- txt-sty div-->
+
+            		<div id="lear">
+
+            		<p>
+            		 <a href="#" id="Achor-1">	Learn More </a>
+            		</p>
+
+            		</div>
+
+            	</div> <!--container 2 -->
+            
+
+
+        </body>
+
+
+    </html>
